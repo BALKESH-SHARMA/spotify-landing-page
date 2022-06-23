@@ -1,0 +1,37 @@
+.got-questions{
+  height: 489px;
+  padding: 60px 0px;
+  margin: 0px 46px;
+}
+.got-questions h1{
+  text-align: center;
+  font-family:  Helvetica,arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+.question{
+  display: flex;
+  padding: 12px 28px;
+  justify-content: space-between;
+  align-items: center;
+}
+.question:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: rgb(240,240,240);
+}
+.got-questions h4{
+  font-size: 18px;
+}
+.got-questions p{
+ 
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+  }
+
+.question h4 p{
+  display: inline;
+}

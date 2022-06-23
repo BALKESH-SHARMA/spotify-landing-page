@@ -1,0 +1,56 @@
+.why-spotify-container{
+  background-color: white;
+  height: 545.49px;
+  width: 100%;
+  margin-top: 70px;
+}
+.heading-why-spotify{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  
+  margin-top: 40px;
+  
+}
+.why-spotify-content-container{
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  direction: row;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 90px;
+}
+.why-spotify-content{
+  display:inline-block;
+  padding-left: 20px;
+  text-align: center;
+  width: 285px;
+  height: 307px;
+  
+}
+
+.heading-why-spotify-content{
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 100px;
+}
+.why-spotify-content-img{
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(#9198e9, #a900d2);
+  border-radius: 50%;
+ margin-left: 55px;
+  position: relative;
+}
+.why-spotify-content-img span{
+  position: absolute;
+  right:0px;
+  color: #fff;
+  margin: 45px;
+}
+.fas{
+  color: linear-gradient(#9198e9, #a900d2);
+}
+
